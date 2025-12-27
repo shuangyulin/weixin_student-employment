@@ -1,0 +1,97 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/qiye/list",
+    "pages/qiye/add-or-update",
+    "pages/qiye/detail",
+    "pages/gangweileixing/list",
+    "pages/gangweileixing/add-or-update",
+    "pages/gangweileixing/detail",
+    "pages/zhaopinxinxi/list",
+    "pages/zhaopinxinxi/add-or-update",
+    "pages/zhaopinxinxi/detail",
+    "pages/yingpinxinxi/list",
+    "pages/yingpinxinxi/add-or-update",
+    "pages/yingpinxinxi/detail",
+    "pages/mianshitongzhi/list",
+    "pages/mianshitongzhi/add-or-update",
+    "pages/mianshitongzhi/detail",
+    "pages/mianshijieguo/list",
+    "pages/mianshijieguo/add-or-update",
+    "pages/mianshijieguo/detail",
+    "pages/chatmessage/list",
+    "pages/chatmessage/add-or-update",
+    "pages/chatmessage/detail",
+    "pages/friend/list",
+    "pages/friend/add-or-update",
+    "pages/friend/detail",
+    "pages/newstype/list",
+    "pages/newstype/add-or-update",
+    "pages/newstype/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "common/linkOthers/linkOthers"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的大学生就业管理系统设计与实现",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#CBCBCB",
+    "selectedColor": "#5051B5",
+    "borderStyle": "white",
+    "backgroundColor": "#E2E2E2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhaopinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "招聘信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}

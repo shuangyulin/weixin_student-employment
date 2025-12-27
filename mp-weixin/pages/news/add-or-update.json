@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#E9E9E9",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "就业公告",
+  "usingComponents": {
+    "xia-editor": "/components/xia-editor/xia-editor",
+    "w-picker": "/components/w-picker/w-picker",
+    "multiple-select": "/components/momo-multipleSelect/momo-multipleSelect"
+  }
+}
